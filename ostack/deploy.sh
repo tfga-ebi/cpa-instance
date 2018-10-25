@@ -9,6 +9,7 @@ set -e
 # tfga's debug stuff
 echo "PORTAL_CALLBACK_SECRET = '$PORTAL_CALLBACK_SECRET'"
 echo "PORTAL_BASE_URL        = '$PORTAL_BASE_URL'"
+echo
 
 
 # Local variables
