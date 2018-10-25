@@ -6,6 +6,11 @@ NC='\033[0m' # No Color
 set -e
 # Provisions a virtual machine instance
 
+# tfga's debug stuff
+echo "PORTAL_CALLBACK_SECRET = '$PORTAL_CALLBACK_SECRET'"
+echo "PORTAL_BASE_URL        = '$PORTAL_BASE_URL'"
+
+
 # Local variables
 export APP="${PORTAL_APP_REPO_FOLDER}"
 echo "export APP=${APP}"
